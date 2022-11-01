@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#icon{
+    width: 2rem;
+    height: 2rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #B6C0BE;
+}
+#large{
+    color: #FE7AE4;
+    font-size: 18px;
+}
+#lines{
+    font-size: 12px;
+}
+#line1{
+    color: #B6C0BE;
+}
+#line2{
+    font-weight: bold;
+}
+img{
+    width: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+}

@@ -1,0 +1,38 @@
+
+.banner{
+    margin:40px 0;
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    background: #FE7AE4;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 60%;
+    text-align: left;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+#image{
+    position: absolute;
+    bottom: 0;
+    left: -4%;
+    width: 180px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+#title{
+    font-weight: bold;
+}
+#content{
+    font-size: 12px;
+}

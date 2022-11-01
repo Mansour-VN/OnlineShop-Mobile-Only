@@ -1,0 +1,86 @@
+.button, .waiting, .active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    min-width: fit-content;
+    padding: 10px;
+    margin: 0.6rem;
+}
+
+.active, .waiting {
+    font-size: 12px;
+    padding: 2px 6px;
+
+}
+
+.active {
+    background: #FE7AE4;
+    color: #fff;
+}
+
+.waiting {
+    background: #ECECEC;
+    color: #CBCED3;
+}
+
+.button {
+    background: #FE7AE4;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.page, .fav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: fit-content;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    margin: 0.6rem;
+}
+
+.page {
+    color: #FE7AE4;
+}
+
+.fav {
+    color: #CBCED3;
+}
+
+.inactive {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    color: #CBCED3;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.page:active, .Inactive:active, .button:active, .waiting:active {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.faved{
+    color: #FE7AE4;
+    padding: 10px;
+
+}
+.fav:active{
+    color: #FE7AE4;
+}
+.button:hover, .waiting:hover, .active:hover, .page:hover, .fav:hover, .Inactive:hover, .faved:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,66 @@
+.container {
+    width: 85%;
+    display: flex;
+    gap: 5px;
+    background: #fff;
+    padding: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+#img {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 70px;
+    flex: 1;
+}
+
+#check {
+    color: #FE7AE4;
+    font-size: 26px;
+}
+
+.details {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 4;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+#fas{
+    font-size: 10px;
+}
+
+#fas:hover{
+cursor: pointer;
+}
+#fas:active{
+    background: #FE7AE4;
+}
